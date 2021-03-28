@@ -26,6 +26,29 @@ header div{
   /* display: flex; */
 }
 
+section {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+section div {
+  width : 45%;
+  margin: auto 0 auto 0;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  section {
+    display: block
+  }
+}
+
+/* .regels {
+  background-color: rgb(191, 0, 0);
+  border-radius: 10px;
+} */
+
 /* unvisited link */
 
 
