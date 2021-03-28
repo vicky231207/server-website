@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+html, body{
+  font-family: 'Roboto Thin', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 125, 0);
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: white;
+}
+
+header div{
+/* flex-wrap: wrap; */
+  /* height:100%; */
+  width: 33.3vw;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* border-radius: 10px; */
+  /* border: 1px solid black; */
+  /* display: flex; */
+}
+
+
+/* unvisited link */
+
+header {
+  padding: 1em;
+}
+
+header a {
+  width: 100%;
+  /* background-color: red; */
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bolder;
+  transition: color 0.5s ease;
+}
+
+header a:link {
+  color: black;
+}
+
+header img{
+  height: 4em;
+  padding:0;
+  margin::0;
+}
+
+/* visited link */
+header a:visited {
+  color: black;
+}
+
+/* mouse over link */
+header a:hover {
+  color: gray;
+}
+
+/* selected link */
+header a:active {
+  color: black;
+}
+
+ul li{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+header div{
+  width: 33.3vw;
+  /* border-radius: 10px; */
+  /* border: 1px solid black; */
+  /* display: flex; */
+}
+
+/* unvisited link */
+
+header {
+  padding: 1em;
+}
+
+section a {
+  /* text-decoration: none;
+  font-size: 2em;
+  font-weight: bolder; */
+  transition: color 0.5s ease;
+}
+
+section a:link {
+  color: white;
+}
+
+/* visited link */
+section a:visited {
+  color: white;
+}
+
+/* mouse over link */
+section a:hover {
+  color: gray;
+}
+
+/* selected link */
+section a:active {
+  color: white;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-left: 2.5%;
+}
+
+footer{
+  position: fixed;
+  margin-left: 1rem;
+  bottom: 1rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header div a {
+
+} */
